@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SpikeUP.master.cs" Inherits="CO5027.SpikeUP" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/Style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <header class="clearfix">
+        <div class="container">
+                <div class="header-left">
+                    <h1>SpikeUP</h1>
+                </div>
+                <div class="header-right">
+                    <label for="open">
+                        <span class="hidden-desktop"></span>
+                    </label>
+                    <input type="checkbox" name="" id="open"/>
+                    <nav>
+                        <a href="~/Default.aspx" runat="server">Home</a>
+                        <a href="~/Ozora.aspx" runat="server">Ozora</a>
+                        <a href="~/KendamaUSA.aspx" runat="server">KendamaUSA</a>
+                        <a href="~/TK16.aspx" runat="server">TK16 Master</a>
+                        <a href="~/Contact.aspx" runat="server">Contact</a>
+                    </nav>
+                </div>
+            </div>
+     </header>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <!-- Do not add anything in here -->
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
