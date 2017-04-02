@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SpikeUP.Master" AutoEventWireup="true" CodeBehind="KendamaUSA.aspx.cs" Inherits="CO5027.KendamaUSA" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Do not add anything here -->
 </asp:Content>
@@ -7,26 +8,45 @@
     <section class="clearfix">
         <div class="container">
             <div class="section-left">
-                <h1 class="section-title">Heading 1</h1>
+                <h1 class="section-title">KendamaUSA Classic Series</h1>
                 <h5 class="section-tagline">Text will go here for information.</h5>
-                 <div class="products">
-                  <ul style="list-style-type:none">
+                <ul style="list-style-type: none" class="products">
                     <li>
                         <a href="#">
-                            <img src="Kendama/kendama_usa-tk16-master-black-1.jpg" width="200" height="200">
-                            <h4>Kendama TK16 (Black)</h4>
+                            <img src="Kendama/Kendama-USA-Classic-Black.jpg" width="200" height="200" />
+                            <h4>KendamaUSA Classic (Black)</h4>
                             <p>$20.00</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="Kendama/kendama_usa-tk16-master-black-1.jpg" width="200" height="200">
-                            <h4>Kendama TK16 (Black)</h4>
+                            <img src="Kendama/Kendama-USA-Classic-Blue.jpg" width="200" height="200" />
+                            <h4>KendamaUSA Classic (Blue)</h4>
                             <p>$20.00</p>
                         </a>
-                    </li><!-- more list items -->
-                 </ul>
-                </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="Kendama/Kendama-USA-Classic-Natural.jpg" width="200" height="200" />
+                            <h4>KendamaUSA Classic (Natural)</h4>
+                            <p>$20.00</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="Kendama/Kendama-USA-Classic-Green.jpg" width="200" height="200" />
+                            <h4>KendamaUSA Classic (Green)</h4>
+                            <p>$20.00</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="Kendama/Kendama-USA-Classic-Red.jpg" width="200" height="200" />
+                            <h4>KendamaUSA Classic (Red)</h4>
+                            <p>$20.00</p>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
