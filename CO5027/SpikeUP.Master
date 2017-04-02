@@ -26,7 +26,7 @@
                         <a href="~/Default.aspx" runat="server">Home</a>
                         <a href="~/Ozora.aspx" runat="server">Ozora</a>
                         <a href="~/KendamaUSA.aspx" runat="server">KendamaUSA</a>
-                        <a href="~/TK16.aspx" runat="server">TK16 Master</a>
+                        <a href="~/TK16-Master.aspx" runat="server">TK16 Master</a>
                         <a href="~/Contact.aspx" runat="server">Contact</a>
                     </nav>
                 </div>

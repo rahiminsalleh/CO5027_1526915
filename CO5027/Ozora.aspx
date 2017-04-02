@@ -8,7 +8,7 @@
     <section class="clearfix">
         <div class="container">
             <div class="section-left">
-                <h1 class="section-title">Ozora Kendama</h1>
+                <h1 class="section-title">OZORA</h1>
                 <h5 class="section-tagline">Ozora is a Kendama community and which respected by Top Player's around the world. Produced by Yamagata Kobou,<br />
                     this quality brand is playable Kendama for Beginners or the seasoned pros.
                     <br />
