@@ -157,10 +157,11 @@ section{
 }
 
 ul.products li {
+    margin:20px;
     list-style-type: none;
     width: 200px;
     display: inline-block;
     vertical-align: top;
-    display: inline;
-    zoom: 1;
+    *display: inline;
+    *zoom: 1;
 }

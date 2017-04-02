@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="KendamaUSA.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -123,6 +124,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="KendamaUSA.aspx.cs">
+      <DependentUpon>KendamaUSA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KendamaUSA.aspx.designer.cs">
+      <DependentUpon>KendamaUSA.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ozora.aspx.cs">
       <DependentUpon>Ozora.aspx</DependentUpon>
