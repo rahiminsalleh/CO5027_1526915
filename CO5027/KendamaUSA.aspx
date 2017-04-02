@@ -9,7 +9,7 @@
         <div class="container">
             <div class="section-left">
                 <h1 class="section-title">KendamaUSA Classic Series</h1>
-                <h5 class="section-tagline">Text will go here for information.</h5>
+                <h5 class="section-tagline">Kendama created by KendamaUSA with USA quality wood that would put the sound<br />in your fisrt Big Cup catch.</h5>
                 <ul style="list-style-type: none" class="products">
                     <li>
                         <a href="#">
