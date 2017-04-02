@@ -76,15 +76,6 @@ namespace CO5027 {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// btnsend control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnsend;
-        
-        /// <summary>
         /// btnreset control.
         /// </summary>
         /// <remarks>
@@ -92,5 +83,14 @@ namespace CO5027 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnreset;
+        
+        /// <summary>
+        /// btnsend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnsend;
     }
 }

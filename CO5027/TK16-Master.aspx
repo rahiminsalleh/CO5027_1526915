@@ -9,8 +9,7 @@
         <div class="container">
             <div class="section-left">
                 <h1 class="section-title">TK16 MASTER</h1>
-                <h5 class="section-tagline">Kendama created by KendamaUSA with USA quality wood that would put the sound<br />
-                    in your fisrt Big Cup catch.</h5>
+                <h5 class="section-tagline">TK-16 is a Japanese Kendama brand, sometimes referred to as the “tank” of Kendama. They are known for their durability, consistency, and great playability.<br />TK-16’s are certified by the Japanese Kendama Association (JKA).</h5>
                 <ul style="list-style-type: none" class="products">
                     <li>
                         <a href="#">
