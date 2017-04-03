@@ -13,7 +13,7 @@
     <form id="form1" runat="server">
 
         <header class="clearfix">
-        <div class="container">
+            <div class="container">
                 <div class="header-left">
                     <h1>SpikeUP</h1>
                 </div>
@@ -21,7 +21,7 @@
                     <label for="open">
                         <span class="hidden-desktop"></span>
                     </label>
-                    <input type="checkbox" name="" id="open"/>
+                    <input type="checkbox" name="" id="open" />
                     <nav>
                         <a href="~/Default.aspx" runat="server">Home</a>
                         <a href="~/Ozora.aspx" runat="server">Ozora</a>
@@ -31,13 +31,13 @@
                     </nav>
                 </div>
             </div>
-     </header>
+        </header>
 
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        <!-- Do not add anything in here -->
-        </asp:ContentPlaceHolder>
-    </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <!-- Do not add anything in here -->
+            </asp:ContentPlaceHolder>
+        </div>
     </form>
 </body>
 </html>
