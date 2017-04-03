@@ -43,7 +43,7 @@
                         <td class="auto-style1">&nbsp;</td>
                         <td class="space">
                             <asp:Button ID="btnreset" runat="server" Text="Reset" Height="28px" Width="74px" />
-                            <asp:Button ID="btnsend" runat="server" Text="Send" OnClick="btnsend_Click" Height="28px" Width="74px" /></td>
+                            <asp:Button ID="btnsend" runat="server" Text="Send" Height="28px" Width="74px" /></td>
                     </tr>
                 </table>
             </div>

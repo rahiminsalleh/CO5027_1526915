@@ -38,6 +38,9 @@
                 <!-- Do not add anything in here -->
             </asp:ContentPlaceHolder>
         </div>
+        <footer>
+            <p>Copyright&copy 2017 SpikeUP and All Rights Reserved</p>
+        </footer>
     </form>
 </body>
 </html>

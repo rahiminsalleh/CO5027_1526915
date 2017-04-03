@@ -179,4 +179,18 @@ li p{
     margin-right:140px;
 }
 
+footer {
+    position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    height: 100px;
+    width: 100%;
+    clear: both;
+    background-color:black;
+    bottom:0;
+
+}
+footer p{
+    color:white;
+    text-align:center;
+}
 
