@@ -17,6 +17,9 @@
                             <asp:Label ID="Label1" runat="server" Text="Name">Name:</asp:Label></td>
                         <td>
                             <asp:TextBox ID="txtName" runat="server" Width="241px"></asp:TextBox></td>
+                        <td rowspan="4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987.6607330695917!2d114.93057485790553!3d4.8857308991131525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32228ac8ee3f7d03%3A0xcacd96016959ec39!2sLaksamana+College+of+Business!5e0!3m2!1sen!2sbn!4v1491197050818" width="400" height="300" frameborder="0" style="border: 0" allowfullscreen></iframe>
+                        </td>
                     </tr>
                     <tr>
                         <td class="auto-style1">
@@ -43,7 +46,6 @@
                             <asp:Button ID="btnsend" runat="server" Text="Send" OnClick="btnsend_Click" Height="28px" Width="74px" /></td>
                     </tr>
                 </table>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987.6607330695917!2d114.93057485790553!3d4.8857308991131525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32228ac8ee3f7d03%3A0xcacd96016959ec39!2sLaksamana+College+of+Business!5e0!3m2!1sen!2sbn!4v1491197050818" width="400" height="300" frameborder="0" style="border: 0" allowfullscreen></iframe>
             </div>
         </div>
     </section>
