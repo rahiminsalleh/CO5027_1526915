@@ -181,7 +181,7 @@ li p{
 
 footer {
     position: relative;
-    margin-top: -180px; /* negative value of footer height */
+    margin-top: -180px; 
     height: 100px;
     width: 100%;
     clear: both;

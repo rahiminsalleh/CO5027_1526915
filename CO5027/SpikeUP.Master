@@ -13,6 +13,12 @@
     <form id="form1" runat="server">
 
         <header class="clearfix">
+            <div class="header-right">
+                <nav>
+                    <a href="~/Login.aspx" runat="server">Sign In</a>
+                    <a href="~/Register.aspx" runat="server">Sign up</a>
+                </nav>
+            </div>
             <div class="container">
                 <div class="header-left">
                     <h1>SpikeUP</h1>

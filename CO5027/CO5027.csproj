@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="KendamaUSA.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -133,6 +134,13 @@
     </Compile>
     <Compile Include="KendamaUSA.aspx.designer.cs">
       <DependentUpon>KendamaUSA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ozora.aspx.cs">
       <DependentUpon>Ozora.aspx</DependentUpon>
