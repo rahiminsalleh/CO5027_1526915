@@ -16,35 +16,35 @@
                         <a href="#">
                             <img src="Kendama/Kendama-USA-Classic-Black.jpg" width="200" height="200" />
                             <h4>KendamaUSA Classic (Black)</h4>
-                            <p>$20.00</p>
+                            <p>$16.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/Kendama-USA-Classic-Blue.jpg" width="200" height="200" />
                             <h4>KendamaUSA Classic (Blue)</h4>
-                            <p>$20.00</p>
+                            <p>$16.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/Kendama-USA-Classic-Natural.jpg" width="200" height="200" />
                             <h4>KendamaUSA Classic (Natural)</h4>
-                            <p>$20.00</p>
+                            <p>$16.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/Kendama-USA-Classic-Green.jpg" width="200" height="200" />
                             <h4>KendamaUSA Classic (Green)</h4>
-                            <p>$20.00</p>
+                            <p>$16.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/Kendama-USA-Classic-Red.jpg" width="200" height="200" />
                             <h4>KendamaUSA Classic (Red)</h4>
-                            <p>$20.00</p>
+                            <p>$16.99</p>
                         </a>
                     </li>
                 </ul>

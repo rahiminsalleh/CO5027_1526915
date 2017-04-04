@@ -16,49 +16,49 @@
                         <a href="#">
                             <img src="Kendama/tk16-master-black.jpg" width="200" height="200" />
                             <h4>TK16 Master (Black)</h4>
-                            <p>$20.00</p>
+                            <p>$19.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-blue.jpg" width="200" height="200" />
                             <h4>TK16 Master (Blue)</h4>
-                            <p>$20.00</p>
+                            <p>$19.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-green.jpg" width="200" height="200" />
                             <h4>TK16 Master (Green)</h4>
-                            <p>$20.00</p>
+                            <p>$19.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-natural.jpg" width="200" height="200" />
                             <h4>TK16 Master (Natural)</h4>
-                            <p>$20.00</p>
+                            <p>$19.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-pink.jpg" width="200" height="200" />
                             <h4>TK16 Master (Pink)</h4>
-                            <p>$20.00</p>
+                            <p>$19.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-red.jpg" width="200" height="200" />
                             <h4>TK16 Master (Red)</h4>
-                            <p>$20.00</p>
+                            <p>$19.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-yellow.jpg" width="200" height="200" />
                             <h4>TK16 Master (Yellow)</h4>
-                            <p>$20.00</p>
+                            <p>$19.99</p>
                         </a>
                     </li>
                 </ul>
