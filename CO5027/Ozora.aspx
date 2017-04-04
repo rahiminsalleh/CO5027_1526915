@@ -16,42 +16,42 @@
                 <ul style="list-style-type: none" class="products">
                     <li>
                         <a href="#">
-                            <img src="Kendama/ozorablack.png" width="200" height="200" />
+                            <img src="Kendama/ozorablack.png" alt="Ozora Black" width="200" height="200" />
                             <h4>Kendama Ozora (Black)</h4>
                             <p>$22.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="Kendama/ozorablue.png" width="200" height="200" />
+                            <img src="Kendama/ozorablue.png" alt="Ozora Blue" width="200" height="200" />
                             <h4>Kendama Ozora (Blue)</h4>
                             <p>$22.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="Kendama/ozoragreen.png" width="200" height="200" />
+                            <img src="Kendama/ozoragreen.png" alt="Ozora Green" width="200" height="200" />
                             <h4>Kendama Ozora (Green)</h4>
                             <p>$22.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="Kendama/ozoralightblue.png" width="200" height="200" />
+                            <img src="Kendama/ozoralightblue.png" alt="Ozora Light Blue" width="200" height="200" />
                             <h4>Kendama Ozora (Light Blue)</h4>
                             <p>$22.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="Kendama/ozorared.png" width="200" height="200" />
+                            <img src="Kendama/ozorared.png" alt="Ozora Red" width="200" height="200" />
                             <h4>Kendama Ozora (Red)</h4>
                             <p>$22.99</p>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="Kendama/ozorayellow.png" width="200" height="200" />
+                            <img src="Kendama/ozorayellow.png" alt="Ozora Yellow" width="200" height="200" />
                             <h4>Kendama Ozora (Yellow)</h4>
                             <p>$22.99</p>
                         </a>
