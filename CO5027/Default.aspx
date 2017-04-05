@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Homepage" Language="C#" MasterPageFile="~/SpikeUP.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="CO5027.Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SpikeUP.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="CO5027.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Do not add anything here -->

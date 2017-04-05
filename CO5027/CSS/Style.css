@@ -10,7 +10,7 @@
     -webkit-box-sizing: border-box;
 }
 .clearfix {
-  *zoom: 1;
+    *zoom: 1;
 }
 html{
     font-family: Helvetica, arial, sans-serif;
