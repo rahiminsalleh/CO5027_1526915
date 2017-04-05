@@ -8,7 +8,7 @@
     <section class="clearfix">
         <div class="container">
             <div class="section-left">
-                <h1 class="section-title">KendamaUSA CLASSIC</h1>
+                <h2 class="section-title">KendamaUSA CLASSIC</h2>
                 <h5 class="section-tagline">Kendama created by KendamaUSA with USA quality wood that would put the sound<br />
                     in your fisrt Big Cup catch for a beginners choice and Pros .</h5>
                 <ul style="list-style-type: none" class="products">

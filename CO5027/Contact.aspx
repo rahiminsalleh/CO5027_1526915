@@ -9,7 +9,7 @@
     <section class="clearfix">
         <div class="container">
             <div class="section-left">
-                <h1 class="section-title">Contact</h1>
+                <h2 class="section-title">Contact</h2>
                 <h5 class="section-tagline">Please fill in the requirement below. Our customer service will shortly reply to your Email.</h5>
                 <table>
                     <tr>

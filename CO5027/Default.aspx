@@ -8,7 +8,7 @@
     <section class="clearfix">
         <div class="container">
             <div class="section-left">
-                <h1 class="section-title">Featured</h1>
+                <h2 class="section-title">Featured</h2>
                 <h5 class="section-tagline">Our featured products recommended by the pros.</h5>
                 <ul style="list-style-type: none" class="products">
                     <li>
