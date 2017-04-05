@@ -15,6 +15,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-black.jpg" alt="TK16 Master Black" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-black-1.jpg?v=1447090432 -->
                             <h4>TK16 Master (Black)</h4>
                             <p>$19.99</p>
                         </a>
@@ -22,6 +23,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-blue.jpg" alt="TK16 Master Blue" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-blue-1.jpg?v=1447090435 -->
                             <h4>TK16 Master (Blue)</h4>
                             <p>$19.99</p>
                         </a>
@@ -29,6 +31,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-green.jpg" alt="TK16 Master Green" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama-usa-tk16-master-green-1.jpg?v=1447090776 -->
                             <h4>TK16 Master (Green)</h4>
                             <p>$19.99</p>
                         </a>
@@ -36,6 +39,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-natural.jpg" alt="TK16 Master Natural" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-natural-1_grande.jpg?v=1447090439 -->
                             <h4>TK16 Master (Natural)</h4>
                             <p>$19.99</p>
                         </a>
@@ -43,13 +47,15 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-pink.jpg" alt="TK16 Master Pink" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-pink-1.jpg?v=1447090442 -->
                             <h4>TK16 Master (Pink)</h4>
                             <p>$19.99</p>
                         </a>
-                    </li>
+                        </li>
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-red.jpg" alt="TK16 Master Red" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-red-1.jpg?v=1447090445 -->
                             <h4>TK16 Master (Red)</h4>
                             <p>$19.99</p>
                         </a>
@@ -57,6 +63,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/tk16-master-yellow.jpg" alt="TK16 Master Yellow" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-yellow-1.jpg?v=1447090450 -->
                             <h4>TK16 Master (Yellow)</h4>
                             <p>$19.99</p>
                         </a>

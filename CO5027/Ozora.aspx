@@ -17,6 +17,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/ozorablack.png" alt="Ozora Black" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0280/0045/products/ozorablack_large.png?v=1466001885&locale=English&locale=English -->
                             <h4>Kendama Ozora (Black)</h4>
                             <p>$22.99</p>
                         </a>
@@ -24,6 +25,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/ozorablue.png" alt="Ozora Blue" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0280/0045/products/ozorablue_large.png?v=1466001886&locale=English&locale=English -->
                             <h4>Kendama Ozora (Blue)</h4>
                             <p>$22.99</p>
                         </a>
@@ -31,6 +33,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/ozoragreen.png" alt="Ozora Green" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0280/0045/products/ozoragreen_large.png?v=1466001892&locale=English&locale=English -->
                             <h4>Kendama Ozora (Green)</h4>
                             <p>$22.99</p>
                         </a>
@@ -38,6 +41,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/ozoralightblue.png" alt="Ozora Light Blue" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0280/0045/products/ozoralightblue_large.png?v=1466001890&locale=English&locale=English -->
                             <h4>Kendama Ozora (Light Blue)</h4>
                             <p>$22.99</p>
                         </a>
@@ -45,6 +49,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/ozorared.png" alt="Ozora Red" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0280/0045/products/ozorared_large.png?v=1466001891&locale=English&locale=English -->
                             <h4>Kendama Ozora (Red)</h4>
                             <p>$22.99</p>
                         </a>
@@ -52,6 +57,7 @@
                     <li>
                         <a href="#">
                             <img src="Kendama/ozorayellow.png" alt="Ozora Yellow" width="200" height="200" />
+                            <!-- https://cdn.shopify.com/s/files/1/0280/0045/products/ozorayellow_large.png?v=1466001892&locale=English&locale=English -->
                             <h4>Kendama Ozora (Yellow)</h4>
                             <p>$22.99</p>
                         </a>
