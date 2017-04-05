@@ -27,7 +27,7 @@
                     <label for="open">
                         <span class="hidden-desktop"></span>
                     </label>
-                    <input type="checkbox" name="" id="open" />
+                    <input type="checkbox" id="open" />
                     <nav>
                         <a href="~/Default.aspx" runat="server">Home</a>
                         <a href="~/Ozora.aspx" runat="server">Ozora</a>
