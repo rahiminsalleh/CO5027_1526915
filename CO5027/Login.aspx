@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SpikeUP.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CO5027.Login" %>
+﻿<%@ Page Title="Sign in" Language="C#" MasterPageFile="~/SpikeUP.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CO5027.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Do not add anything here -->
     <style type="text/css">

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SpikeUP.Master" AutoEventWireup="true" CodeBehind="Ozora.aspx.cs" Inherits="CO5027.Ozora" %>
+﻿<%@ Page Title="Ozora" Language="C#" MasterPageFile="~/SpikeUP.Master" AutoEventWireup="true" CodeBehind="Ozora.aspx.cs" Inherits="CO5027.Ozora" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Do not add anything here -->
