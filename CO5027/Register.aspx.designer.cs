@@ -10,7 +10,7 @@
 namespace CO5027 {
     
     
-    public partial class Login {
+    public partial class Register {
         
         /// <summary>
         /// Label1 control.
@@ -56,14 +56,5 @@ namespace CO5027 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnlogin;
-        
-        /// <summary>
-        /// litRegisterError control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litRegisterError;
     }
 }
