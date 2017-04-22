@@ -58,13 +58,13 @@ namespace CO5027 {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// txtSubject control.
+        /// SubjectList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSubject;
+        protected global::System.Web.UI.WebControls.DropDownList SubjectList;
         
         /// <summary>
         /// Label3 control.
@@ -76,21 +76,21 @@ namespace CO5027 {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// btnreset control.
+        /// txtMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnreset;
+        protected global::System.Web.UI.WebControls.TextBox txtMessage;
         
         /// <summary>
-        /// btnsend control.
+        /// btnSendEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnsend;
+        protected global::System.Web.UI.WebControls.Button btnSendEmail;
     }
 }
