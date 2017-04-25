@@ -32,6 +32,8 @@ namespace CO5027
 
         protected void btnlogin_Click(object sender, EventArgs e)
         {
+            //http://tutorials.tinyappco.com/ASPNET/Identity
+
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
 
             var userStore = new UserStore<IdentityUser>(identityDbContext);
@@ -39,7 +41,7 @@ namespace CO5027
             var user = userManager.Find(txtLogusername.Text, txtLogpassword.Text);
 
             if (user != null)
-            {
+            { 
                 var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
                 var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
 
@@ -60,4 +62,4 @@ namespace CO5027
             Response.Redirect("~/Login.aspx");
         }
     }
-}
+} 

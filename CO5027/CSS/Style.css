@@ -194,3 +194,39 @@ footer p{
     text-align:center;
 }
 
+/*http://css3buttongenerator.com*/
+.myBtn {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: black;
+  font-size: 14px;
+  background: white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.myBtn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.txtcolor {
+    color:whitesmoke;
+}
+
+.txterror{
+    color:greenyellow;
+}
+
+table.borderspace{
+    border-spacing:10px;
+    border-collapse:separate;
+}
+.borderspace tr, td{
+    padding:5px;
+}
+
+.multiline{
+    resize:none;
+}

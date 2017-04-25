@@ -10,33 +10,50 @@
         <div class="container">
             <div class="section-left">
                 <h2 class="section-title">Contact</h2>
-                <h5 class="section-tagline">Please fill in the requirement below. Our customer service will shortly reply to your Email.</h5>
-                <table>
+                <h4 class="section-tagline">Please fill in the requirement below. Our customer service will shortly reply to your Email.</h4>
+                <h5 class="section-tagline">
+                    <asp:Literal ID="Status" runat="server"></asp:Literal>
+                </h5>
+                <table class="borderspace">
                     <tr>
-                        <td>
+                        <td class="txtcolor">
                             <asp:Label ID="Label1" runat="server" Text="Name">Name:</asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtName" runat="server" Columns="35"></asp:TextBox>
+                            <asp:TextBox ID="txtName" runat="server" Columns="35" CssClass="txtbox" Font-Bold="True"></asp:TextBox>
+                            <asp:RequiredFieldValidator CssClass="txterror" ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter the information required." ControlToValidate="txtName" Display="Dynamic"></asp:RequiredFieldValidator>
                         </td>
-                        <td rowspan="5">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987.6607330695917!2d114.93057485790553!3d4.8857308991131525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32228ac8ee3f7d03%3A0xcacd96016959ec39!2sLaksamana+College+of+Business!5e0!3m2!1sen!2sbn!4v1491197050818" width="400" height="300" frameborder="0" style="border: 0" allowfullscreen></iframe>
+                        <td rowspan="4">
+                            <%--https://www.w3schools.com/graphics/google_maps_basic.asp--%>
+                            <div id="location" style="width: 500px; height: 400px;">
+                                <script>
+                                    function myMap() {
+                                        var mapProp = {
+                                            center: new google.maps.LatLng(4.8857309, 114.9316692),
+                                            zoom: 20,
+                                        };
+                                        var map = new google.maps.Map(document.getElementById("location"), mapProp);
+                                    }
+                                </script>
+                                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDogVduhCkLglvVPfSBk0I2cyLw4pxDQ-s&callback=myMap"></script>
+                            </div>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <asp:Label ID="Label2" runat="server" Text="Email">Email:</asp:Label>
+                        <td class="txtcolor">
+                            <asp:Label CssClass="txtContent" ID="Label2" runat="server" Text="Email">Email:</asp:Label>
                         </td>
                         <td>
                             <asp:TextBox ID="txtEmail" runat="server" Columns="35"></asp:TextBox>
+                            <asp:RegularExpressionValidator CssClass="txterror" runat="server" ErrorMessage="Please enter a valid email address." ControlToValidate="txtEmail" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Display="Dynamic"></asp:RegularExpressionValidator>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <asp:Label ID="Label4" runat="server" Text="Subject">Subject:</asp:Label>
+                        <td class="txtcolor">
+                            <asp:Label CssClass="txtContent" ID="Label4" runat="server" Text="Subject">Subject:</asp:Label>
                         </td>
                         <td>
-                            <asp:DropDownList ID="SubjectList" runat="server">
+                            <asp:DropDownList ID="SubjectList" runat="server" Row="10">
                                 <asp:ListItem>Ask a question</asp:ListItem>
                                 <asp:ListItem>Report a bug</asp:ListItem>
                                 <asp:ListItem>Customer support</asp:ListItem>
@@ -45,16 +62,17 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <asp:Label ID="Label3" runat="server" Text="Message">Message:</asp:Label>
+                        <td class="txtcolor">
+                            <asp:Label CssClass="txtContent" ID="Label3" runat="server" Text="Message">Message:</asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtMessage" runat="server" Columns="35" Rows="10" TextMode="MultiLine"></asp:TextBox>
+                            <asp:TextBox CssClass="multiline" ID="txtMessage" runat="server" Columns="65" Rows="10" TextMode="MultiLine"></asp:TextBox>
+                            <asp:RequiredFieldValidator CssClass="txterror" ID="RequiredFieldValidator3" runat="server" ErrorMessage="Please fill in your message." ControlToValidate="txtMessage" Display="Dynamic"></asp:RequiredFieldValidator>
                         </td>
                     </tr>
                     <tr>
-                        <td rowspan="2">
-                            <asp:Button ID="btnSendEmail" runat="server" Text="Send" OnClick="btnSendEmail_Click" />
+                        <td rowspan="2" colspan="2">
+                            <asp:Button CssClass="myBtn" ID="btnSendEmail" runat="server" Text="Send" OnClick="btnSendEmail_Click"></asp:Button>
                         </td>
                     </tr>
                 </table>

@@ -13,18 +13,21 @@ namespace CO5027
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void btnSendEmail_Click(object sender, EventArgs e)
         {
+            //http://www.dreamincode.net/forums/topic/183333-aspnet-contact-form-tutorial/ 
+            //Email to the company customer service
 
             MailMessage msg = new MailMessage();
             msg.To.Add(new MailAddress("spikeupservice@gmail.com"));
             MailAddress address = new MailAddress(txtEmail.Text);
             msg.From = address;
             msg.Subject = SubjectList.Text;
-            msg.Body = "Name: " + txtName.Text + Environment.NewLine + "Email: "+ txtEmail.Text + Environment.NewLine + txtMessage.Text;
+            msg.IsBodyHtml = true; 
+            msg.Body = "This Message was sent by " + "<b>" + txtName.Text + "</b>"+ ". Included Email Enquiry: " + "<b>" + txtEmail.Text + "</b>" + "<br />" + "<br />"+ "<b><i>The following Message:</i></b> " + "<br />" + txtMessage.Text + "<br />" + "<br />" + "Spike It UP!";
 
             SmtpClient client = new SmtpClient();
             client.Host = "smtp.gmail.com";
@@ -34,10 +37,13 @@ namespace CO5027
 
             client.Send(msg);
 
+            //https://forums.asp.net/t/1717606.aspx?Popup+Message+Box+in+asp+net+c+
+            //Pop Up message
+            Response.Write("<script language=javascript>alert('Message Was Successfully Sent.')</script>");
+
             txtEmail.Text = "";
             txtMessage.Text = "";
             txtName.Text = "";
-
 
         }
     }

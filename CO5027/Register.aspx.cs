@@ -14,6 +14,8 @@ namespace CO5027
 	{
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
+            //http://tutorials.tinyappco.com/ASPNET/Identity
+
             var identityDbContext = new IdentityDbContext("IdentityConnectionString");
 
             var userStore = new UserStore<IdentityUser>(identityDbContext);
