@@ -24,8 +24,8 @@ namespace CO5027
                 //Email to the company customer service
 
                 MailMessage msg = new MailMessage();
-                msg.From = new MailAddress("spikeupservice@gmail.com");
-                msg.To.Add(txtEmail.Text);
+                msg.From = new MailAddress(txtEmail.Text);
+                msg.To.Add("spikeupservice@gmail.com");
                 msg.Subject = SubjectList.Text;
                 msg.IsBodyHtml = true;
                 msg.Body = "This Message was sent by " + "<b>" + txtName.Text + "</b>";
@@ -47,9 +47,9 @@ namespace CO5027
                 txtMessage.Text = "";
                 txtName.Text = "";
             }
-            catch(Exception)
+            catch(Exception ex)
             {
-                Response.Write("<script language=javascript>alert('Could not send the e-mail - ERROR')</script>");
+                Response.Write("<script language=javascript>alert('Could not send the e-mail - ERROR')</script>" + ex.Message);
             }
 
         }
