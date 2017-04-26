@@ -24,8 +24,9 @@ namespace CO5027
                 //Email to the company customer service
 
                 MailMessage msg = new MailMessage();
-                msg.From = new MailAddress(txtEmail.Text);
                 msg.To.Add("spikeupservice@gmail.com");
+                MailAddress address = new MailAddress(txtEmail.Text);
+                msg.From = address;
                 msg.Subject = SubjectList.Text;
                 msg.IsBodyHtml = true;
                 msg.Body = "This Message was sent by " + "<b>" + txtName.Text + "</b>";
