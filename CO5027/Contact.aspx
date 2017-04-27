@@ -45,6 +45,8 @@
                         </td>
                         <td>
                             <asp:TextBox ID="txtEmail" runat="server" Columns="35"></asp:TextBox>
+                            <asp:RequiredFieldValidator CssClass="txterror" ID="RequiredFieldValidator2" runat="server" ErrorMessage="Please enter Email information." ControlToValidate="txtEmail" Display="Dynamic"></asp:RequiredFieldValidator>
+
                             <asp:RegularExpressionValidator CssClass="txterror" runat="server" ErrorMessage="Please enter a valid email address." ControlToValidate="txtEmail" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Display="Dynamic"></asp:RegularExpressionValidator>
                         </td>
                     </tr>
