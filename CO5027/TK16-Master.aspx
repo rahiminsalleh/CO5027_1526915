@@ -2,6 +2,11 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Do not add anything here -->
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -11,64 +16,29 @@
                 <h1 class="section-title">TK16 MASTER</h1>
                 <h5 class="section-tagline">TK-16 is a Japanese Kendama brand, sometimes referred to as the “tank” of Kendama. They are known for their durability, consistency, and great playability.<br />
                     TK-16’s are certified by the Japanese Kendama Association (JKA).</h5>
-                <ul style="list-style-type: none" class="products">
-                    <li>
-                        <a href="#">
-                            <img src="Kendama/tk16-master-black.jpg" alt="TK16 Master Black" width="200" height="200" />
-                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-black-1.jpg?v=1447090432 -->
-                            <h4>TK16 Master (Black)</h4>
-                            <p>$19.99</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="Kendama/tk16-master-blue.jpg" alt="TK16 Master Blue" width="200" height="200" />
-                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-blue-1.jpg?v=1447090435 -->
-                            <h4>TK16 Master (Blue)</h4>
-                            <p>$19.99</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="Kendama/tk16-master-green.jpg" alt="TK16 Master Green" width="200" height="200" />
-                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama-usa-tk16-master-green-1.jpg?v=1447090776 -->
-                            <h4>TK16 Master (Green)</h4>
-                            <p>$19.99</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="Kendama/tk16-master-natural.jpg" alt="TK16 Master Natural" width="200" height="200" />
-                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-natural-1_grande.jpg?v=1447090439 -->
-                            <h4>TK16 Master (Natural)</h4>
-                            <p>$19.99</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="Kendama/tk16-master-pink.jpg" alt="TK16 Master Pink" width="200" height="200" />
-                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-pink-1.jpg?v=1447090442 -->
-                            <h4>TK16 Master (Pink)</h4>
-                            <p>$19.99</p>
-                        </a>
-                        </li>
-                    <li>
-                        <a href="#">
-                            <img src="Kendama/tk16-master-red.jpg" alt="TK16 Master Red" width="200" height="200" />
-                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-red-1.jpg?v=1447090445 -->
-                            <h4>TK16 Master (Red)</h4>
-                            <p>$19.99</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="Kendama/tk16-master-yellow.jpg" alt="TK16 Master Yellow" width="200" height="200" />
-                            <!-- https://cdn.shopify.com/s/files/1/0286/5338/products/kendama_usa-tk16-master-yellow-1.jpg?v=1447090450 -->
-                            <h4>TK16 Master (Yellow)</h4>
-                            <p>$19.99</p>
-                        </a>
-                    </li>
-                </ul>
+                <div class="auto-style1">
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" DataKeyNames="ID" DataSourceID="SqlDataSource1" GridLines="Vertical" Width="847px">
+                    <AlternatingRowStyle BackColor="#DCDCDC" />
+                    <Columns>
+                        <asp:BoundField DataField="ID" InsertVisible="False" ReadOnly="True" SortExpression="ID" />
+                        <asp:BoundField DataField="Name" SortExpression="Name" />
+                        <asp:BoundField DataField="Brand" SortExpression="Brand" />
+                        <asp:BoundField DataField="Price" SortExpression="Price" />
+                        <asp:ImageField DataImageUrlField="Id" DataImageUrlFormatString="~/PriductImages/{0}.jpg" ControlStyle-Height="400" ControlStyle-Width="400">
+                        </asp:ImageField>
+                    </Columns>
+                    <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
+                    <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+                    <RowStyle BackColor="#EEEEEE" ForeColor="Black" />
+                    <SelectedRowStyle BackColor="#008A8C" Font-Bold="True" ForeColor="White" />
+                    <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                    <SortedAscendingHeaderStyle BackColor="#0000A9" />
+                    <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                    <SortedDescendingHeaderStyle BackColor="#000065" />
+                    </asp:GridView>
+                </div>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:IdentityConnectionString %>" SelectCommand="SELECT ID, Name, Brand, Price FROM Product WHERE (Brand = 'TK16-Master')"></asp:SqlDataSource>
             </div>
         </div>
     </section>

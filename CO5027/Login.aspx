@@ -51,7 +51,7 @@
                     </table>
                 </asp:PlaceHolder>
                 <asp:PlaceHolder runat="server" ID="LogoutButton" Visible="false">
-                    <asp:Button runat="server" OnClick="SignOut" Text="Log out" />
+                    <asp:Button CssClass="myBtn" runat="server" OnClick="SignOut" Text="Logout" />
                 </asp:PlaceHolder>
             </div>
         </div>

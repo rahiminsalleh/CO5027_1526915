@@ -1,41 +1,24 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SpikeUP.master.cs" Inherits="CO5027.SpikeUP" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="CO5027.Admin.Admin" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="CSS/Style.css" type="text/css" rel="stylesheet" />
+    <link href="~/CSS/Style.css" type="text/css" rel="stylesheet" />
+
 </head>
 <body>
     <form id="form1" runat="server">
-
         <header class="clearfix">
             <div class="container">
-                <div class="header-left">
-                    <h1>SpikeUP</h1>
-                </div>
-                <div class="header-right">
-                    <label for="open">
-                        <span class="hidden-desktop"></span>
-                    </label>
-                    <input type="checkbox" id="open" />
-                    <nav>
-                        <a href="~/Default.aspx" runat="server">Home</a>
-                        <a href="~/Ozora.aspx" runat="server">Ozora</a>
-                        <a href="~/KendamaUSA.aspx" runat="server">KendamaUSA</a>
-                        <a href="~/TK16-Master.aspx" runat="server">TK16 Master</a>
-                        <a href="~/Contact.aspx" runat="server">Contact</a>
-                    </nav>
-                </div>
+                <h1 class="section-title">Welcome to Admin Page</h1>
             </div>
         </header>
-
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                <!-- Do not add anything in here -->
             </asp:ContentPlaceHolder>
         </div>
         <footer>
@@ -52,8 +35,9 @@
                 <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
                 <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
             </p>
-            <p><a href="Login.aspx">Admin</a></p>
+            <p><a href="~/Login.aspx" runat="server">Admin</a></p>
         </footer>
+
     </form>
 </body>
 </html>

@@ -19,7 +19,7 @@ namespace CO5027
             {
                 if (User.Identity.IsAuthenticated)
                 {
-                    StatusText.Text = string.Format("Hello {0}!!", User.Identity.GetUserName());
+                    StatusText.Text = string.Format("<h3>Hello {0}!!</h3>", User.Identity.GetUserName());
                     LoginStatus.Visible = true;
                     LogoutButton.Visible = true;
                 }
@@ -46,8 +46,9 @@ namespace CO5027
                 var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
 
                 authenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = false }, userIdentity);
-                Response.Redirect("~/Login.aspx");
-            }
+                Response.Redirect("~/Admin/Products.aspx");
+
+        }
             else
             {
                 StatusText.Text = "Invalid username or password.";

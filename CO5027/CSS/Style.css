@@ -211,6 +211,20 @@ footer p{
   text-decoration: none;
 }
 
+.productbtn {
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #a2a8ab;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.productbtn:hover {
+  background: #494b4d;
+  text-decoration: none;
+}
+
 .txtcolor {
     color:whitesmoke;
 }
